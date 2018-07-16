@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        />
+    <CheckBox
+        android:id="@+id/juceId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/juce"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@android:color/background_light"
+        android:padding="5dp"
+
+        />
+    <CheckBox
+        android:id="@+id/milkId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/milk"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@android:color/background_light"
+        android:padding="5dp"
+
+        />
+    <CheckBox
+        android:id="@+id/mangoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mango"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@android:color/background_light"
+        android:padding="5dp"
+
+        />
+    <CheckBox
+        android:id="@+id/sugarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@android:color/background_light"
+        android:padding="5dp"
+
+        />
+    <CheckBox
+        android:id="@+id/waterId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/water"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@android:color/background_light"
+        android:padding="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/showBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/showBtn"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"
+        />
+
+    <TextView
+        android:id="@+id/resultTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@android:color/background_light"
+        />
+
+</LinearLayout>

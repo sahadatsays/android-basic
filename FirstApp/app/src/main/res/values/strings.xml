@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Android First Application</string>
+    <string name="name">Md Sahadat Hossain</string>
+    <string name="age">75 Years old</string>
+    <string name="home_town">Noakhali</string>
+    <string name="university">Northern University Bangladesh</string>
+    <string name="job">Future Programmer (Hopefully)</string>
+    <string name="enter">Enter</string>
+    <string name="login">Login</string>
+    <string name="btn1">Button One</string>
+    <string name="btn2">Button Two</string>
+    <string name="img_des">This is My personal image</string>
+</resources>

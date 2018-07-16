@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            >
+
+            <Button
+                android:id="@+id/btn1Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn1"
+                />
+
+            <Button
+                android:id="@+id/btn2Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn2"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnMsgId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="2dp"
+            />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="146dp"
+        android:contentDescription="@string/img_des"
+        app:srcCompat="@drawable/sahadat_large" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3sp"
+        android:text="@string/name"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textIsSelectable="true"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:padding="2dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_town"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="19sp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/university"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="19sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/job"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="19sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/enter_btn_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_light"
+                android:text="@string/enter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnLoginId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/login"
+                android:textColor="@android:color/background_light"
+
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/enter_btn_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            />
+
+</LinearLayout>
