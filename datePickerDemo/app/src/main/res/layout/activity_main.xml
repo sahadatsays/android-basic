@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_light"
+        />
+    <Button
+        android:id="@+id/checkBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check date"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:textSize="15dp"
+        />
+    <DatePicker
+        android:id="@+id/datePickerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        >
+
+    </DatePicker>
+
+</LinearLayout>
